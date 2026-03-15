@@ -88,8 +88,4 @@ ros2 topic echo /temperature
 * Electrical Engineer | Robotics Enthusiast
 * GitHub: [anandgawai123456-glitch](https://github.com/anandgawai123456-glitch)
 
----
 
-If you want, I can **also make a simpler “Day 10 snapshot version” README** with images/diagrams of publisher-subscriber nodes — this will **look very professional on GitHub** and catch recruiters’ attention.
-
-Do you want me to do that?
