@@ -42,11 +42,11 @@ class UltrasonicPublisher(Node):
 
                     # 🧠 Decision Logic
                     if distance < 20:
-                        print("⚠️ VERY CLOSE OBJECT")
+                        print("⚠️ VERY CLOSE OBJECT, khup javal ahe")
                     elif distance < 50:
-                        print("Object nearby")
+                        print("Object nearby", "jawal pas ahe")
                     else:
-                        print("Clear path")
+                        print("Clear path", "pudhe kahich nai ahe")
 
         except Exception as e:
             print("Error:", e)

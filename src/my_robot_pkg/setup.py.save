@@ -1,8 +1,6 @@
 from setuptools import find_packages, setup
-package_name = 'my_robot_pkg'
-from glob import glob
 
-('share/my_robot_pkg/launch', glob('launch/*.py')),  
+package_name = 'my_robot_pkg'
 
 setup(
     name=package_name,
@@ -14,7 +12,9 @@ setup(
               ['resource/my_robot_pkg']),
         ('share/my_robot_pkg', ['package.xml']),
         ('share/my_robot_pkg/launch', ['launch/simple_arm.launch.py']),
-        ('share/my_robot_pkg/launch', [ 'launch/ultrasonic_launch.py']),
+('share/m
+    'launch/ultrasonic_launch.py'   # 👈 add this
+]),
 
     ],
 
